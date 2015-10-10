@@ -1,0 +1,54 @@
+/* 清零 */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font: Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	background-color: #f3f3f3;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+/*导航开始*/
+.navi{
+	height: 80px;
+	background-color: #333;
+	color: #fff;
+}
+.navi .navi-con{
+	display: block;
+	height: 80px;
+	width: 1080px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid red;
+}
+.navi-con img{
+	display: block;
+	height: 60px;
+	margin-top: 10px;
+}
+.navi .navi-con ul{
+	display: block;
+	position: absolute;
+	height: 60px;
+	width: 220px;
+	top: 15px;
+	right: 0px;
+}
+.navi .navi-con ul li{
+	display: inline-block;
+	font-size: 20px;
+	line-height: 60px;
+	margin-right: 20px;
+}
+.navi .navi-con ul li a{
+	color: #fff;
+}
+/*导航结束*/

@@ -1,2 +1,0 @@
-# atdali
-atdali.com
