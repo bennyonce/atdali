@@ -22,33 +22,33 @@ li{
 	color: #fff;
 }
 .navi .navi-con{
-	display: block;
-	height: 80px;
 	width: 1080px;
 	margin: 0 auto;
-	position: relative;
-	border: 1px solid red;
 }
-.navi-con img{
-	display: block;
-	height: 60px;
-	margin-top: 10px;
+.navi .navi-con .navi-logo{
+	margin: 10px;
 }
 .navi .navi-con ul{
-	display: block;
-	position: absolute;
+	float: right;
+	margin: 10px;
+	width: 280px;
 	height: 60px;
-	width: 220px;
-	top: 15px;
-	right: 0px;
 }
-.navi .navi-con ul li{
-	display: inline-block;
-	font-size: 20px;
-	line-height: 60px;
-	margin-right: 20px;
-}
-.navi .navi-con ul li a{
+.navi .navi-con ul .navi-title{
+	font-size: 24px;
 	color: #fff;
+	display: inline-block;
+	float: right;
+	margin: 20px;
+
 }
 /*导航结束*/
+
+/*内容区*/
+.content{
+	width: 1080px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+/*内容区结束*/
+
