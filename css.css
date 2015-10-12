@@ -48,7 +48,40 @@ li{
 .content{
 	width: 1080px;
 	margin: 0 auto;
-	border: 1px solid red;
+	padding-top: 30px;
+}
+.content .con-card{
+	position: relative;
+	float: left;
+	width: 280px;
+	height: 320px;
+	background-color: #fff;
+	border-radius: 2px;
+}
+.content .con-card .con-user{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 10px;
+}
+.content .con-card .user-title{
+	font-size: 16px;
+	color: #222;
+	position: absolute;
+	top: 20px;
+	font-weight: bold;
+}
+.content .con-card .con-pic{
+	height: 210px;
+	width: 280px;
+}
+.content .con-card p{
+	font: Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	width: 70px;
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 10px;
 }
 /*内容区结束*/
 
