@@ -24,14 +24,12 @@ li{
 .navi .navi-con{
 	width: 1440px;
 	margin: 0 auto;
-	position: relative;
 }
 .navi .navi-con .navi-logo{
 	margin: 10px;
 }
 .navi .navi-con ul{
-	position: absolute;
-	left: 180px;
+	display: inline-block;
 	top: 0px;
 	margin: 10px;
 	width: 280px;
@@ -132,3 +130,54 @@ li{
 }
 /*内容区结束*/
 
+/*页脚*/
+.hd-footer{
+	margin-top: 40px;
+	height: 240px;
+	background-color: #dcdcdc;
+}
+.hd-footer .footer-con{
+	width: 1280px;
+	margin: 0 auto;
+	padding-left: 40px;
+}
+.hd-footer .footer-conleft{
+	display: inline-block;
+	padding-top: 10px;
+	width: 300px;
+}
+.hd-footer .footer-conleft .footer-logo{
+	display: block;
+	margin-top: 10px;
+}
+.hd-footer .footer-conleft span{
+	font-size: 16px;
+	color: #666;
+}
+.hd-footer .footer-conleft p{
+	display: block;
+	width: 280px;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #666;
+}
+.hd-footer .footer-conmid{
+	display: inline-block;
+	position: absolute;
+	padding-top: 90px;
+	padding-left: 100px;
+	width: 300px;
+}
+.hd-footer .footer-conmid p{
+	display: inline-block;
+	color: #666;
+	font-size: 16px;
+	line-height: 30px;
+}
+.hd-footer .footer-con .footer-conright{
+	width: 300px;
+}
+.hd-footer .footer-con .copyright{
+	margin-top: 20px;
+}
+/*页脚结束*/
