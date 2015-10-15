@@ -140,6 +140,7 @@ li{
 	width: 1280px;
 	margin: 0 auto;
 	padding-left: 40px;
+	position: relative;
 }
 .hd-footer .footer-conleft{
 	display: inline-block;
@@ -162,13 +163,12 @@ li{
 	color: #666;
 }
 .hd-footer .footer-conmid{
-	display: inline-block;
 	position: absolute;
-	padding-top: 90px;
-	padding-left: 100px;
+	left: 435px;
+	top: 100px;
 	width: 300px;
 }
-.hd-footer .footer-conmid p{
+.hd-footer .footer-conmid .footer-link{
 	display: inline-block;
 	color: #666;
 	font-size: 16px;
