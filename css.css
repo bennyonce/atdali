@@ -4,7 +4,7 @@
 	padding: 0px;
 }
 body{
-	font: Helvetica,Arial,sans-serif;
+	font-family: Arial;
 	font-size: 12px;
 	background-color: #f3f3f3;
 }
@@ -24,12 +24,14 @@ li{
 .navi .navi-con{
 	width: 1440px;
 	margin: 0 auto;
+	position: relative;
 }
 .navi .navi-con .navi-logo{
 	margin: 10px;
 }
 .navi .navi-con ul{
-	display: inline-block;
+	position: absolute;
+	left: 170px;
 	top: 0px;
 	margin: 10px;
 	width: 280px;
@@ -43,12 +45,28 @@ li{
 	margin: 20px;
 	font-weight: bold;
 }
+.navi .navi-con .navi-search{
+	position: absolute;
+	top: 20px;
+	right: 240px;
+	height: 36px;
+	width: 140px;
+	border: 2px solid #fff;
+	border-radius: 36px;
+}
+.navi .navi-con .navi-search p{
+	font-size: 16px;
+	color: #fff;
+	line-height: 35px;
+	padding-left: 70px;
+}
 .navi .navi-con .about_me{
-	position: relative;
-	float: right;
+	position: absolute;
 	width: 200px;
 	height: 60px;
 	margin: 10px;
+	top: 0px;
+	right: 10px;
 }
 .navi .navi-con .about_me img{
 	width: 40px;
@@ -66,13 +84,84 @@ li{
 
 /*搜索区*/
 .hd-search{
+	position: relative;
 	width: 1280px;
-	height: 80px;
+	height: 300px;
 	margin: 0 auto;
 	margin-top: 30px;
-	background-color: #dcdcdc;
 }
-
+.hd-search .se-box{
+	width: 400px;
+	height: 300px;
+	margin-left: 20px;
+	position: relative;
+	background-color: #fff;
+}
+.hd-search .se-box .se-start{
+	border: 5px solid #4bf;
+	width: 250px;
+	height: 50px;
+	background-color: #f3f3f3;
+	font-size: 18px;
+	color: #999;
+	padding-left: 55px;
+	margin-left: 40px;
+	position: absolute;
+	top: 40px;
+}
+.hd-search .se-box .se-end{
+	border: 5px solid #4bf;
+	width: 250px;
+	height: 50px;
+	background-color: #f3f3f3;
+	font-size: 18px;
+	color: #999;
+	padding-left: 55px;
+	margin-left: 40px;
+	position: absolute;
+	top: 130px;
+}
+.hd-search .se-box .icon-start{
+	position: absolute;
+	left: 50px;
+	top: 46px;
+}
+.hd-search .se-box .icon-end{
+	position: absolute;
+	left: 50px;
+	top: 135px;
+}
+.hd-search .se-box .se-button{
+	display: inline-block;
+	width: 140px;
+	height: 50px;
+	background-color: #4bf;	
+	margin-left: 40px;
+	margin-top: 220px;
+}
+.hd-search .se-box .se-button p{
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+.hd-search .hd-banner{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 300px;
+	width: 800px;
+	margin-right: 20px;
+}
+.hd-search .se-box .se-more{
+	display: inline-block;
+	font-size: 18px;
+	color: #37a;
+	padding-left: 20px;
+}
+.hd-search .se-boxmore{
+	
+}
 /*搜索区结束*/
 
 
