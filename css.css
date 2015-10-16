@@ -86,7 +86,6 @@ li{
 .hd-search{
 	position: relative;
 	width: 1280px;
-	height: 300px;
 	margin: 0 auto;
 	margin-top: 30px;
 }
@@ -98,7 +97,7 @@ li{
 	background-color: #fff;
 }
 .hd-search .se-box .se-start{
-	border: 5px solid #4bf;
+	border: 3px solid #4bf;
 	width: 250px;
 	height: 50px;
 	background-color: #f3f3f3;
@@ -110,7 +109,7 @@ li{
 	top: 40px;
 }
 .hd-search .se-box .se-end{
-	border: 5px solid #4bf;
+	border: 3px solid #4bf;
 	width: 250px;
 	height: 50px;
 	background-color: #f3f3f3;
@@ -140,7 +139,7 @@ li{
 	margin-top: 220px;
 }
 .hd-search .se-box .se-button p{
-	font-size: 24px;
+	font-size: 20px;
 	color: #fff;
 	text-align: center;
 	line-height: 50px;
@@ -155,12 +154,39 @@ li{
 }
 .hd-search .se-box .se-more{
 	display: inline-block;
-	font-size: 18px;
+	font-size: 16px;
 	color: #37a;
 	padding-left: 20px;
 }
 .hd-search .se-boxmore{
-	
+	width: 400px;
+	height: 300px;
+	background-color: #fff;
+	margin-left: 20px;
+	position: absolute;
+	top: 0px;
+	left: 400px;
+	border-left: 2px dotted #4bf;
+}
+.hd-search .se-boxmore .se-option{
+	width: 320px;
+	height: 24px;
+	margin-left: 30px;
+    margin-top: 50px;
+}
+.hd-search .se-boxmore .se-option li{
+	float: left;
+	width: 100px;
+}
+.hd-search .se-boxmore .se-option .se-title{
+	position: relative;
+}
+.hd-search .se-boxmore p{
+	display: inline-block;
+	line-height: 24px;
+	position: absolute;
+	padding-left: 5px;
+	font-size: 18px;
 }
 /*搜索区结束*/
 
@@ -197,6 +223,7 @@ li{
 	height: 40px;
 	border-radius: 50%;
 	margin: 10px;
+	margin-left: 15px;
 }
 .hd-content .con-card .user-title{
 	font-size: 16px;
@@ -208,6 +235,10 @@ li{
 .hd-content .con-card .con-pic{
 	height: 210px;
 	width: 280px;
+	overflow: hidden;
+}
+.hd-content .con-card .con-info{
+	padding-left: 20px;
 }
 .hd-content .con-card p{
 	font: Helvetica,Arial,sans-serif;
@@ -242,14 +273,14 @@ li{
 }
 .hd-footer .footer-conleft span{
 	font-size: 16px;
-	color: #666;
+	color: #444;
 }
 .hd-footer .footer-conleft p{
 	display: block;
 	width: 280px;
 	margin-top: 20px;
 	font-size: 14px;
-	color: #666;
+	color: #444;
 }
 .hd-footer .footer-conmid{
 	position: absolute;
@@ -259,9 +290,10 @@ li{
 }
 .hd-footer .footer-conmid .footer-link{
 	display: inline-block;
-	color: #666;
+	color: #37a;
 	font-size: 16px;
 	line-height: 30px;
+	margin-right: 20px;
 }
 .hd-footer .footer-con .footer-conright{
 	width: 300px;
