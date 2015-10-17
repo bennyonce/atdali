@@ -4,9 +4,9 @@
 	padding: 0px;
 }
 body{
-	font-family: Arial;
+	font-family: "Microsoft Yahei", "微软雅黑", "Tahoma", "Arial", "Helvetica", "STHeiti";
 	font-size: 12px;
-	background-color: #f3f3f3;
+	background-color: #F6F6F4;
 }
 a{
 	text-decoration: none;
@@ -18,8 +18,9 @@ li{
 /*导航开始*/
 .navi{
 	height: 80px;
-	background-color: #333;
+	background-color: #fff;
 	color: #fff;
+	box-shadow: 0px 1px 1px rgba(0,0,0,.1);
 }
 .navi .navi-con{
 	width: 1440px;
@@ -27,7 +28,7 @@ li{
 	position: relative;
 }
 .navi .navi-con .navi-logo{
-	margin: 10px;
+	margin: 15px;
 }
 .navi .navi-con ul{
 	position: absolute;
@@ -39,11 +40,11 @@ li{
 }
 .navi .navi-con ul .navi-title{
 	font-size: 20px;
-	color: #fff;
+	color: #222;
 	display: inline-block;
 	float: right;
 	margin: 20px;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 .navi .navi-con .navi-search{
 	position: absolute;
@@ -51,14 +52,19 @@ li{
 	right: 240px;
 	height: 36px;
 	width: 140px;
-	border: 2px solid #fff;
+	border: 2px solid #999;
 	border-radius: 36px;
+}
+.navi .navi-con .navi-search img{
+	position: absolute;
+	top: 7px;
+	right: 12px;
 }
 .navi .navi-con .navi-search p{
 	font-size: 16px;
-	color: #fff;
+	color: #999;
 	line-height: 35px;
-	padding-left: 70px;
+	padding-left: 12px;
 }
 .navi .navi-con .about_me{
 	position: absolute;
@@ -79,6 +85,8 @@ li{
 	display: inline-block;
 	position: absolute;
 	top: 20px;
+	color: #222;
+	margin-left: 5px;
 }
 /*导航结束*/
 
@@ -209,10 +217,11 @@ li{
 	height: 210px;
 	width: 280px;
 }
+.hd-content .con-card .con-info{
+	margin-left: 15px;
+}
 .hd-content .con-card p{
-	font: Helvetica,Arial,sans-serif;
 	font-size: 14px;
-	width: 70px;
 	display: inline-block;
 	margin-top: 15px;
 	margin-right: 10px;
@@ -222,8 +231,10 @@ li{
 /*页脚*/
 .hd-footer{
 	margin-top: 40px;
+	padding-bottom: 20px;
 	height: 240px;
-	background-color: #dcdcdc;
+	background-color: #000;
+	box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.3);
 }
 .hd-footer .footer-con{
 	width: 1280px;
@@ -242,14 +253,14 @@ li{
 }
 .hd-footer .footer-conleft span{
 	font-size: 16px;
-	color: #666;
+	color: #A3A3A3;
 }
 .hd-footer .footer-conleft p{
 	display: block;
 	width: 280px;
 	margin-top: 20px;
 	font-size: 14px;
-	color: #666;
+	color: #A3A3A3;
 }
 .hd-footer .footer-conmid{
 	position: absolute;
@@ -259,14 +270,16 @@ li{
 }
 .hd-footer .footer-conmid .footer-link{
 	display: inline-block;
-	color: #666;
+	color: #A3A3A3;
 	font-size: 16px;
 	line-height: 30px;
+	margin-right: 20px;
 }
 .hd-footer .footer-con .footer-conright{
+	margin-top: 20px;
 	width: 300px;
 }
-.hd-footer .footer-con .copyright{
-	margin-top: 20px;
+.hd-footer .footer-con .footer-conright p{
+	color: #A3A3A3;
 }
 /*页脚结束*/
