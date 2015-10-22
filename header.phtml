@@ -1,0 +1,102 @@
+<!-- 导航区 -->
+<!-- navbar-fixed-top -->
+<nav class="navbar navbar-static-top">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+            <img alt="logo" src="../../img/logo.png">
+        </a>
+    </div>
+    <ul class="nav nav-pills main-menu" role="tablist">
+        <?php if(in_array(1,$this->prid)){?>
+        <li>
+            <a href=""
+               class="dropdown-toggle main-menu-info icon icon-guanggao" 
+               data-toggle="dropdown" role="button" aria-expanded="false">
+               广告投放
+               </a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="/addelivery/adinfo">广告概览</a></li>
+                <?php if(in_array(2,$this->prid)){?>
+                <li><a href="/addelivery/newad">新建广告</a></li>
+                <li><a href="/addelivery/tacticslist">策略组概览</a></li>
+                <?php }?>
+            </ul>
+        </li>
+        <?php }?>
+        <?php if(in_array(3,$this->prid)){?>
+        <li>
+            <a href=""
+               class="dropdown-toggle main-menu-info icon icon-toufang" 
+               data-toggle="dropdown" role="button" aria-expanded="false">
+               投放数据
+               </a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="/deliverydetail/deliverylist">数据概览</a></li>
+            </ul>
+        </li>
+        <?php }?>
+        <?php if(in_array(4,$this->prid)){?>
+        <li>
+            <a href=""
+               class="dropdown-toggle main-menu-info icon icon-shenhe" 
+               data-toggle="dropdown" role="button" aria-expanded="false">
+               审核系统</a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="/audit/auditlist">审核概览</a></li>
+                <li><a href="/audit/pending">待审核</a></li>
+                <li><a href="/audit/failures">未通过</a></li>
+                <li><a href="/audit/qualified">已通过</a></li>
+            </ul>
+        </li>
+        <?php }?>
+        <?php if(in_array(6,$this->prid)){?>
+        <li>
+            <a href="/pointmanage/airport"
+               class="dropdown-toggle main-menu-info icon icon-dianwei" 
+               data-toggle="dropdown" role="button" aria-expanded="false">
+               点位管理</a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="/pointmanage/airport">机场</a></li>
+                <li><a href="/pointmanage/partner">合作商家</a></li>
+                <li><a href="/pointmanage/wiaccount">WI账户</a></li>
+                <li><a href="/pointmanage/wiposition">WI场所</a></li>
+                <li><a href="/pointmanage/pointgroup">点位分组</a></li>
+            </ul>
+        </li>
+        <?php }?>
+        <?php if(in_array(7,$this->prid)){?>
+        <li>
+            <a href=""
+               class="dropdown-toggle main-menu-info customer-manage icon icon-customer" 
+               data-toggle="dropdown" role="button" aria-expanded="false">
+               项目管理</a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="/manage/project">项目管理</a></li>
+                <li><a href="/manage/customer">客户管理</a></li>
+                <li><a href="/manage/industry">行业管理</a></li>
+            </ul>
+        </li>
+        <?php }?>
+        <li class="navbar-right user-info">
+            <a href=""
+               class="dropdown-toggle" 
+               data-toggle="dropdown" role="button" aria-expanded="false">
+               <i class="fa fa-user"></i>
+               <?php output($this->ainfo['name'])?>
+               <i class="fa fa-angle-down"></i></a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="/account/accountinfo">账户管理</a></li>
+                <?php if(in_array(10,$this->prid)){?>
+                <li><a href="/account/accountlist">账号管理</a></li>
+                <?php }?>
+                <?php if(in_array(8,$this->prid)){?>
+                <li><a href="/account/operationlog">操作日志</a></li>
+                <?php }?>
+                <?php if(in_array(9,$this->prid)){?>
+                <li><a href="/account/systemlog">系统日志</a></li>
+                <?php }?>
+                <li><a href="/login/logout">退出登录</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
