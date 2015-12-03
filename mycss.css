@@ -1,0 +1,24 @@
+/* 清零 */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "Microsoft Yahei", "微软雅黑", "Tahoma", "Arial", "Helvetica", "STHeiti";
+	font-size: 12px;
+	background-color: #F6F6F4;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+/*navi start*/
+.hd-navi{
+	height: 60px;
+	background-color: #fff;
+	color: #fff;
+	box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+}
